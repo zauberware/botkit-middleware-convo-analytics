@@ -24,6 +24,7 @@ describe('receive() text', function() {
         ts: '1522182838.0001993',
         source_team: '38958ABLC',
         team: '38958ABLC',
+        sent_timestamp: '2342873492734',
         raw_message: {
             type: 'message',
             channel: 'D88V7BL2F',
