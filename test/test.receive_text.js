@@ -13,7 +13,7 @@ describe('receive() text', function() {
     });
 
     // convo.analytics middleware
-    var middleware = require('../src/botkit-middleware-conco-analytics')(config);
+    var middleware = require('../lib/botkit-middleware-convo-analytics')(config);
 
     // incoming message from chat platform, before middleware processing
     var message = {
@@ -37,15 +37,17 @@ describe('receive() text', function() {
     };
 
     before(function() {
-        nock.disableNetConnect();
+        // nock.disableNetConnect();
 
-        nock(config.url)
-            .post('/' + config.version + '/query?v=' + config.protocol)
-            .reply(200);
+        // nock(config.url)
+        //     .post('/' + config.version + '/?v=' + config.protocol)
+        //     .reply(200);
     });
 
     after(function() {
+        
         nock.cleanAll();
+
     });
 
     it('should make a call to the convo.analytics api', function(done) {
