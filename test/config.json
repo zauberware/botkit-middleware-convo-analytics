@@ -1,6 +1,6 @@
 {
-    "url": "https://api.api.ai:443",
-    "protocol": "20150910",
+    "url": "https://ocjdjdwcvl.execute-api.eu-central-1.amazonaws.com:443",
+    "protocol": "20180509",
     "version": "v1",
-    "token": "abc123"
+    "token": "thisIsMyToken"
 }

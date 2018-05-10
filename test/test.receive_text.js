@@ -38,11 +38,12 @@ describe('receive() text', function() {
     };
 
     before(function() {
+        // Todo enable nock for local testing
         // nock.disableNetConnect();
 
         // nock(config.url)
-        //     .post('/' + config.version + '/?v=' + config.protocol)
-        //     .reply(200);
+        //     .post('/' + '/?v=' + config.protocol)
+        //     .reply(201);
     });
 
     after(function() {

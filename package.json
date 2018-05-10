@@ -1,6 +1,6 @@
 {
   "name": "botkit-middleware-convo-analytics",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "A middleware for using convo.analytics in a Botkit-powered bot.",
   "dependencies": {
     "debug": "^3.1.0",
@@ -13,16 +13,16 @@
     }
   ],
   "devDependencies": {
-    "convo-analytics-api": "file:../convo-analytics-api",
     "botkit": "^0.6.12",
     "chai": "^4.1.2",
     "clone": "^1.0.4",
+    "convo-analytics-api": "^0.1.0",
     "eslint": "^4.13.0",
     "eslint-config-google": "^0.9.1",
     "mocha": "^5.0.5",
     "nock": "^9.2.3"
   },
-  "homepage": "https://github.com/convo-analytics/botkit-middleware-convo-analytics#readme",
+  "homepage": "https://github.com/zauberware/botkit-middleware-convo-analytics#readme",
   "keywords": [
     "botkit",
     "chatbot",
@@ -34,7 +34,7 @@
   "main": "lib/botkit-middleware-convo-analytics.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/convo-analytics/botkit-middleware-convo-analytics.git"
+    "url": "git+https://github.com/zauberware/botkit-middleware-convo-analytics.git"
   },
   "scripts": {
     "lint": "eslint **/*.js",
