@@ -1,6 +1,6 @@
 {
   "name": "botkit-middleware-convo-analytics",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A middleware for using convo.analytics in a Botkit-powered bot.",
   "dependencies": {
     "debug": "^3.1.0",
